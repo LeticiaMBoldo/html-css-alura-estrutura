@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;  /*100 do dispositivo acessado - viewport*/
+    box-sizing: border-box; /*todos os elementos filhos do body tem que estar dentro dele*/
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
