@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="./index.html" class="cabecalho__menu__link">Home</a>
+            <a href="./about.html" class="cabecalho__menu__link">Sobre mim</a>
+            <a href="./curriculum.html" class="cabecalho__menu__link">Curriculo</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível 
@@ -19,14 +25,21 @@
             CSS</strong>. Ajudo pequenos negócios e pretendo auxiliar designers a 
             colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__links">
-                <a href="https://instagram.com/leticiamboldo" class="apresentacao__links_link">Instagram</a>
-                <a href="https://github.com/LeticiaMBoldo"class="apresentacao__links_link">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>                
+                <a href="https://github.com/LeticiaMBoldo"class="apresentacao__links__link">
+                    <img src="./assets/github.png" alt="Logo do Github"> GitHub</a>
+                <a href="https://instagram.com/leticiamboldo" class="apresentacao__links__link">
+                    <img src="./assets/instagram.png" alt="Logo do instagram"> Instagram</a>
+                <a href="https://www.twitch.tv/letschado"class="apresentacao__links__link">
+                    <img src="./assets/twitch.png" alt="Logo da Twich"> Twich</a>
             </div>
         </section>
         <section>
-        <img class="apresentacao__imagem" src="img/IMG-20251017-WA0070.jpg" alt="Foto da Letícia Boldo jogando beach tennis">
-
+            <img class="apresentacao__imagem" src="assets/meInBeachTennis.jpg" alt="Foto da Letícia Boldo jogando beach tennis">
+        </section>
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p> Desenvolvido por Letícia Boldo <em>2026</em></p>
+    </footer>
 </body>
 </html>
